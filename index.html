@@ -21,9 +21,16 @@
       <label id="email-label" for="email">Email</label>
       <input type="email" name="email" id="email" placeholder="Enter your Email" required>
       <br>
-      <label id="number-label" >Age </label>
-      <input type="number"  id="number" placeholder="Age" required>
-     
+      <label id="number-label" for="number">Age </label>
+      <input type="number" name="number" id="number" placeholder="Age" min="18" max="42" required>
+      <br>
+      <label id="dropdown-label" for="option">Select an option</label>
+      <select id="dropdown" name="option" required>
+        <option disabled="" selected="" value="">Select an option</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">option 3</option>
+      </select>
      </form>
 
      
