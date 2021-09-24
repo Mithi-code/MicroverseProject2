@@ -13,10 +13,9 @@
       <p id="description">This is the description of the form</p>
     </header>
     
-     <form id="survey-form">
-     
+    <form id="survey-form">
       <label id="name-label" for="name">Name</label>
-      <input type="text" name="name" id="name" placeholder="Enter your name">
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
       <br>
       <label id="email-label" for="email">Email</label>
       <input type="email" name="email" id="email" placeholder="Enter your Email" required>
@@ -42,11 +41,9 @@
       <label><input name="group" value="option3" type="radio" >Option 3
       </label>
       <br>
-     
       <p>
         Select your options
       </p>
-
       <label>
         <input name="group2" value="option1" type="checkbox" >Option 1
       </label>
@@ -56,11 +53,13 @@
       <label>
         <input name="group2" value="option3" type="checkbox" >Option 3
       </label>
-        
-     </form>
-
-     
-
+      <br>
+      <p>Any comments?</p>
+      <textarea id="comments" name="comment" placeholder="Enter your comments..."></textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    
     <script  src="js/index.js"></script>
   </body>
 </html>
