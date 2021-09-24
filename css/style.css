@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gemunu Libre", sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    padding: 2% ;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#header p {
+    text-align: center;
+    font-size: 30px;
+}
+
+#survey-form {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+
+#survey-form input{
+    width: 50em;
+    outline: none;
+}
+
+#survey-form select {
+  width: 50em;
+}
+
+#survey-form textarea {
+ width: 50em;
+}
+
+#survey-form button {
+    width: 50em;
+}
+
+@media (max-width:800px) {
+    #survey-form {
+        background-color: darkgoldenrod;
+    }
+    #survey-form input{
+        width: 80%;
+    }
+    #survey-form select {
+        width: 80%;
+    }
+}
